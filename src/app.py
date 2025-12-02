@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-
-from flask import Flask, request
+#  Transaction Recorder – Echo back the entered values
+from flask import Flask, request, render_template_string
 
 app = Flask(__name__)
 
